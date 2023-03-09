@@ -1,7 +1,7 @@
 # Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
 # More GitHub Actions for Azure: https://github.com/Azure/actions
 
-name: Build and deploy ASP.Net Core app to STAGING SLOT Azure Web App - azure-app-trev-vs
+name: STAGING SLOT Azure Web App Deployment - azure-app-trev-vs
 
 on:
   push:
@@ -51,7 +51,7 @@ jobs:
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v2
         with:
-          app-name: 'azure-app-trev-vs'
+          app-name: 'azure-app-trev-vs/Staging'
           slot-name: 'Staging'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_7D7FA20F3A9D4B3C8C90F1DF44E61B14 }}
           package: .
