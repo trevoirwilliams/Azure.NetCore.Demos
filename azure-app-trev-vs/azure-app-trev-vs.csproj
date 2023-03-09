@@ -5,6 +5,12 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>azure_app_trev_vs</RootNamespace>
+    <ApplicationInsightsResourceId>/subscriptions/c56b06f7-44e6-428f-a089-b929206381c9/resourceGroups/az-group-rg/providers/microsoft.insights/components/azure-app-trev-vs</ApplicationInsightsResourceId>
+    <UserSecretsId>ec00c710-a252-4daf-8b2d-ae51d3d73274</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.15.0" />
+  </ItemGroup>
 
 </Project>
