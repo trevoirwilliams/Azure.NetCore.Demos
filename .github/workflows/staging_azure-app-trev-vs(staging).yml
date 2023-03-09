@@ -34,24 +34,24 @@ jobs:
           name: .net-app
           path: ${{env.DOTNET_ROOT}}/myapp
 
-  deploy:
-    runs-on: windows-latest
-    needs: build
-    environment:
-      name: 'Staging'
-      url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
+  #deploy:
+  #  runs-on: windows-latest
+  #  needs: build
+  #  environment:
+  #    name: 'Staging'
+  #    url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
 
-    steps:
-      - name: Download artifact from build job
-        uses: actions/download-artifact@v2
-        with:
-          name: .net-app
+  #  steps:
+  #    - name: Download artifact from build job
+  #      uses: actions/download-artifact@v2
+  #      with:
+  #        name: .net-app
 
-      - name: Deploy to Azure Web App
-        id: deploy-to-webapp
-        uses: azure/webapps-deploy@v2
-        with:
-          app-name: 'azure-app-trev-vs'
-          slot-name: 'Staging'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_91541A5A295E42ED9731B7BAEFB0B7A0 }}
-          package: .
+  #    - name: Deploy to Azure Web App
+  #      id: deploy-to-webapp
+  #      uses: azure/webapps-deploy@v2
+  #      with:
+  #        app-name: 'azure-app-trev-vs'
+  #        slot-name: 'Staging'
+  #        publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_91541A5A295E42ED9731B7BAEFB0B7A0 }}
+  #        package: .
