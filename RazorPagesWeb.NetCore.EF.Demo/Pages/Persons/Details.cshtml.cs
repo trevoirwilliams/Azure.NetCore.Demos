@@ -5,15 +5,15 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
-using azure_app_trev_vs.Data;
+using RazorPagesWeb.NetCore.EF.Demo.Data;
 
-namespace azure_app_trev_vs.Pages.Persons
+namespace RazorPagesWeb.NetCore.EF.Demo.Pages.Persons
 {
     public class DetailsModel : PageModel
     {
-        private readonly azure_app_trev_vs.Data.AppDbContext _context;
+        private readonly RazorPagesWeb.NetCore.EF.Demo.Data.AppDbContext _context;
 
-        public DetailsModel(azure_app_trev_vs.Data.AppDbContext context)
+        public DetailsModel(RazorPagesWeb.NetCore.EF.Demo.Data.AppDbContext context)
         {
             _context = context;
         }

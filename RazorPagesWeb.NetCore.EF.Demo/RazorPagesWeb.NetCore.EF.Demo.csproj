@@ -4,7 +4,7 @@
     <TargetFramework>net7.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <RootNamespace>azure_app_trev_vs</RootNamespace>
+    <RootNamespace>RazorPagesWeb.NetCore.EF.Demo</RootNamespace>
     <ApplicationInsightsResourceId>/subscriptions/c56b06f7-44e6-428f-a089-b929206381c9/resourceGroups/az-group-rg/providers/microsoft.insights/components/azure-app-trev-vs</ApplicationInsightsResourceId>
     <UserSecretsId>ec00c710-a252-4daf-8b2d-ae51d3d73274</UserSecretsId>
   </PropertyGroup>

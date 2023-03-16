@@ -1,4 +1,4 @@
-using azure_app_trev_vs.Data;
+using RazorPagesWeb.NetCore.EF.Demo.Data;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);

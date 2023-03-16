@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace azure_app_trev_vs.Pages
+namespace RazorPagesWeb.NetCore.EF.Demo.Pages
 {
     public class DeploymentSlotsModel : PageModel
     {
