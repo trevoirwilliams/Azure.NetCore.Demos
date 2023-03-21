@@ -7,6 +7,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blazor.AzureCosmosDb.Demo",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RazorPagesWeb.NetCore.EF.Demo", "RazorPagesWeb.NetCore.EF.Demo\RazorPagesWeb.NetCore.EF.Demo.csproj", "{196939B0-89AC-4A35-AF1E-4374CD161CE7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mvc.StorageAccount.Demo", "Mvc.StorageAccount.Demo\Mvc.StorageAccount.Demo.csproj", "{8DB90888-D7C2-4158-BD81-A2ED82836013}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console.QueueConsumer.Demo", "Console.QueueConsumer.Demo\Console.QueueConsumer.Demo.csproj", "{6EB8450E-5D31-4F12-8446-0A3CBB1D163A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{196939B0-89AC-4A35-AF1E-4374CD161CE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{196939B0-89AC-4A35-AF1E-4374CD161CE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{196939B0-89AC-4A35-AF1E-4374CD161CE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DB90888-D7C2-4158-BD81-A2ED82836013}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DB90888-D7C2-4158-BD81-A2ED82836013}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DB90888-D7C2-4158-BD81-A2ED82836013}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DB90888-D7C2-4158-BD81-A2ED82836013}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EB8450E-5D31-4F12-8446-0A3CBB1D163A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EB8450E-5D31-4F12-8446-0A3CBB1D163A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EB8450E-5D31-4F12-8446-0A3CBB1D163A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EB8450E-5D31-4F12-8446-0A3CBB1D163A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
