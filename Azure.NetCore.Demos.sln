@@ -7,9 +7,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blazor.AzureCosmosDb.Demo",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RazorPagesWeb.NetCore.EF.Demo", "RazorPagesWeb.NetCore.EF.Demo\RazorPagesWeb.NetCore.EF.Demo.csproj", "{196939B0-89AC-4A35-AF1E-4374CD161CE7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mvc.StorageAccount.Demo", "Mvc.StorageAccount.Demo\Mvc.StorageAccount.Demo.csproj", "{8DB90888-D7C2-4158-BD81-A2ED82836013}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mvc.StorageAccount.Demo", "Mvc.StorageAccount.Demo\Mvc.StorageAccount.Demo.csproj", "{8DB90888-D7C2-4158-BD81-A2ED82836013}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console.QueueConsumer.Demo", "Console.QueueConsumer.Demo\Console.QueueConsumer.Demo.csproj", "{6EB8450E-5D31-4F12-8446-0A3CBB1D163A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Console.QueueConsumer.Demo", "Console.QueueConsumer.Demo\Console.QueueConsumer.Demo.csproj", "{6EB8450E-5D31-4F12-8446-0A3CBB1D163A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console.ServiceBusSender.Demo", "Console.ServiceBusSender.Demo\Console.ServiceBusSender.Demo.csproj", "{81E04D2A-F779-4B97-B658-2A665951CE89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console.ServiceBusReceiver.Demo", "Console.ServiceBusReceiver.Demo\Console.ServiceBusReceiver.Demo.csproj", "{B501EFF6-1F6B-436E-B35C-3212F15F579C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{6EB8450E-5D31-4F12-8446-0A3CBB1D163A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6EB8450E-5D31-4F12-8446-0A3CBB1D163A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6EB8450E-5D31-4F12-8446-0A3CBB1D163A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81E04D2A-F779-4B97-B658-2A665951CE89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81E04D2A-F779-4B97-B658-2A665951CE89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81E04D2A-F779-4B97-B658-2A665951CE89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81E04D2A-F779-4B97-B658-2A665951CE89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B501EFF6-1F6B-436E-B35C-3212F15F579C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B501EFF6-1F6B-436E-B35C-3212F15F579C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B501EFF6-1F6B-436E-B35C-3212F15F579C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B501EFF6-1F6B-436E-B35C-3212F15F579C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
