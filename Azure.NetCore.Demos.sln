@@ -15,7 +15,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Console.ServiceBusSender.De
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Console.ServiceBusReceiver.Demo", "Console.ServiceBusReceiver.Demo\Console.ServiceBusReceiver.Demo.csproj", "{B501EFF6-1F6B-436E-B35C-3212F15F579C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionApp.Demo", "FunctionApp.Demo\FunctionApp.Demo.csproj", "{AAD40272-CE8A-423C-A7D2-249A1F158E97}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FunctionApp.Demo", "FunctionApp.Demo\FunctionApp.Demo.csproj", "{AAD40272-CE8A-423C-A7D2-249A1F158E97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservice1Api.Containers.Demo", "Microservice1Api.Containers.Demo\Microservice1Api.Containers.Demo.csproj", "{3920FDCE-802C-4FEF-8EFF-65B266920F13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservice2Api.Containers.Demo", "Microservice2Api.Containers.Demo\Microservice2Api.Containers.Demo.csproj", "{050E4991-E23D-4E3B-9D2D-0CF1609952B1}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{70315846-0180-4A59-AF45-495BBAA0A118}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +57,18 @@ Global
 		{AAD40272-CE8A-423C-A7D2-249A1F158E97}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AAD40272-CE8A-423C-A7D2-249A1F158E97}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AAD40272-CE8A-423C-A7D2-249A1F158E97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3920FDCE-802C-4FEF-8EFF-65B266920F13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3920FDCE-802C-4FEF-8EFF-65B266920F13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3920FDCE-802C-4FEF-8EFF-65B266920F13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3920FDCE-802C-4FEF-8EFF-65B266920F13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{050E4991-E23D-4E3B-9D2D-0CF1609952B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{050E4991-E23D-4E3B-9D2D-0CF1609952B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{050E4991-E23D-4E3B-9D2D-0CF1609952B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{050E4991-E23D-4E3B-9D2D-0CF1609952B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70315846-0180-4A59-AF45-495BBAA0A118}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70315846-0180-4A59-AF45-495BBAA0A118}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70315846-0180-4A59-AF45-495BBAA0A118}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70315846-0180-4A59-AF45-495BBAA0A118}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

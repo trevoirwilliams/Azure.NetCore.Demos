@@ -1,0 +1,15 @@
+version: '3.4'
+
+services:
+  microservice1api.containers.demo:
+    image: ${DOCKER_REGISTRY-}microservice1apicontainersdemo
+    build:
+      context: .
+      dockerfile: Microservice1Api.Containers.Demo/Dockerfile
+
+  microservice2api.containers.demo:
+    image: ${DOCKER_REGISTRY-}microservice2apicontainersdemo
+    build:
+      context: .
+      dockerfile: Microservice2Api.Containers.Demo/Dockerfile
+
