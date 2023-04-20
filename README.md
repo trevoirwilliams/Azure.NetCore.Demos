@@ -1,4 +1,4 @@
-# Educational Repository for .NET Core and Microsoft Azure SDKs
+# Educational Repository for Microsoft Azure for .NET Developers
 
 This repository contains educational resources and code samples for learning .NET Core and Microsoft Azure SDKs. The repository is a supporting repository for the course [Microsoft Azure for .NET Developers](https://www.udemy.com/course/microsoft-azure-for-net-developers/?referralCode=960B6BDB555FC59CFA59).
 
